@@ -1,4 +1,5 @@
 # ReviewAnalytics
+# ReviewAnalytics
 📊 ReviewAnalytics – Amazon Product Review Sentiment Analysis
 
 A modern web app that analyzes sentiment from Amazon product reviews using AI-powered insights 🤖✨
@@ -280,5 +281,6 @@ python app.py
 📱 Mobile app version
 
 💡 Made with ❤ by Mari Ganesh M
+
 
 ⚠ Educational purpose only – respect Amazon’s ToS.
