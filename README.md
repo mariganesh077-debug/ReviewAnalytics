@@ -123,12 +123,14 @@ curl "http://localhost:5000/api/reviews?product=iphone"
   "query_type": "search",
   "reviews": [
     {
+    
       "product": "Apple iPhone 13",
       "review": "Great phone with excellent camera quality...",
       "title": "Product Review",
       "rating": null,
       "sentiment": "positive",
       "polarity": 0.8
+    
     }
   ],
   "total_reviews": 15
@@ -157,24 +159,44 @@ polarity: Float value between -1 and 1
 🗂 Project Structure
 major_major/
 ├── backend/
+
 │   ├── app.py               # Flask app
+
 │   ├── requirements.txt     # Python dependencies
+
 │   ├── scrapers/
+
 │   │   └── scraper_api.py   # Web scraping logic
+
 │   └── sentiment.py         # Sentiment analysis logic
+
 ├── frontend/
+
 │   ├── public/
+
 │   │   └── index.html
+
 │   ├── src/
+
 │   │   ├── App.js
+
 │   │   ├── index.js
+
 │   │   ├── index.css
+
 │   │   └── components/
+
 │   │       ├── SearchBar.js
+
 │   │       ├── ReviewsList.js
+
 │   │       └── SentimentChart.js
+
 │   ├── package.json
+
 │   └── tailwind.config.js
+
+
 └── README.md
 
 ⚙ Configuration
